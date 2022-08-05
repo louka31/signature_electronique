@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>    E-signature
+    </title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles_draw.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='draw.js') }}"></script>
+    
+</head>
+
+<header>
+</header>
+
+<body>
+    <h1>Signature ajoutée avec succés </h1>
+    <img src="{{url_for('static', filename='3.jpg')}}" align="middle" /><br>
+    <button onclick="location.href='http://localhost/stage/pages/dashboard.php'" class="btn btn-outline-danger" >Retour à la page d'accueil </button>
+
+
+  
+</body>
+
+</html>
